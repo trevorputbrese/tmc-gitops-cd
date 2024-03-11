@@ -12,5 +12,5 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: tmc-git-repo            # Must match the name of the GitRepo you added in TMC
+    name: tmc-gitops-cd            # Must match the name of the GitRepo you added in TMC
     namespace: tanzu-continuousdelivery-resources

@@ -2,13 +2,13 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
 kind: Kustomization
 metadata:
-  name: demo-clustergroup-dev-apps
+  name: demo-clustergroup-prod-apps
   namespace: tanzu-continuousdelivery-resources
 spec:
   dependsOn:
-    - name: demo-clustergroup-dev-utilities
+    - name: demo-clustergroup-prod-utilities
   interval: 1m0s
-  path: ./environments/demo-clustergroup-dev/applications
+  path: ./environments/demo-clustergroup-prod/applications
   prune: true
   sourceRef:
     kind: GitRepository

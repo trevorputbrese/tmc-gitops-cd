@@ -10,5 +10,5 @@ spec:
   prune: false
   sourceRef:
     kind: GitRepository
-    name: tmc-git-repo
+    name: tmc-gitops-cd
     namespace: tanzu-continuousdelivery-resources

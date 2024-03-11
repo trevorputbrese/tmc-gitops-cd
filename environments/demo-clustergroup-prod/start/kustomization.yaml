@@ -4,3 +4,4 @@ kind: Kustomization
 resources:
 - pre-reqs-kustomization.yaml
 - utilities-kustomization.yaml
+- applications-kustomization.yaml
