@@ -1,0 +1,7 @@
+---
+    apiVersion: v1
+    kind: Namespace
+    metadata:
+      name: a-test-ns
+      labels:
+        app.kubernetes.io/component: a-test-ns
