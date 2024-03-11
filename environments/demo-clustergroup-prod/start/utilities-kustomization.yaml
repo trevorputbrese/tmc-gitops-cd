@@ -20,4 +20,4 @@ spec:
     - apiVersion: apps/v1
       kind: Deployment
       name: contour
-      namespace: tanzu-system-ingress      
+      namespace: contour-ingress      
